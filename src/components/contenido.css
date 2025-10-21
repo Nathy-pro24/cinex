@@ -1,0 +1,81 @@
+.combos {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.combos h3 {
+  text-align: center;
+  color: #ff2c2c;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.combo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.combo-card {
+  background-color: #2a2a2a;
+  border: 1px solid #ff2c2c33;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.combo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 44, 44, 0.4);
+}
+
+.combo-img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.combo-card h4 {
+  color: #ff2c2c;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.combo-card p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.combo-precio {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.combo-boton {
+  background-color: #ff2c2c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.combo-boton:hover {
+  background-color: #e60000;
+}
+
+

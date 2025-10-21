@@ -1,0 +1,53 @@
+body {
+  background-color: #111; /* Fondo general oscuro */
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #1a1a1a; /* Fondo del formulario */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.4); /* Efecto rojo alrededor */
+}
+
+.form-title {
+  text-align: center;
+  color: #ff2c2c; /* Rojo cine */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+.form-input::placeholder {
+  color: #aaa;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff2c2c; /* Botón rojo */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #e60000; /* Rojo más oscuro al pasar el mouse */
+}
+

@@ -1,0 +1,15 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

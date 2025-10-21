@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #000000;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Bebas Neue', sans-serif;
+      text-align: center;
+      padding: 100px;
+    }
+
+   .boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e50914;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.boton-flotante:hover {
+    background-color: #b00610;
+}
+

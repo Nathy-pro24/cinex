@@ -1,0 +1,106 @@
+/* Estilo general del fondo */
+.fondo-cine {
+  background: url('https://images.unsplash.com/photo-1598899134739-24c46f58b8e2') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding-top: 15vh;
+  position: relative;
+}
+
+/* Encabezado */
+.titulo-principal {
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 5px #000;
+}
+
+/* Botón flotante */
+.boton-flotante {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #e50914;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+.boton-flotante:hover {
+  background-color: #b00610;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  right: -400px;
+  top: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 30px;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+  transition: right 0.4s ease;
+  z-index: 999;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+/* Cerrar botón */
+.cerrar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Formulario */
+.sidebar form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.sidebar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sidebar button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: #b00610;
+}
+

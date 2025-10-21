@@ -1,0 +1,182 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Monster High: Un Amor Monstruoso",
+      "año": 2012,
+      "genero": "Animación",
+      "imagen": "mh.jpg",
+      "descripcion": "Las estudiantes de Monster High viven una historia de amor única y espeluznante.",
+      "duracion": "1h 12min",
+      "clasificacion": "PG",
+      "boton": {
+        "texto": "Ver más",
+        "accion": "ver_detalles",
+        "url": "https://example.com/pelicula/1"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Barbie: La Princesa y la Popstar",
+      "año": 2012,
+      "genero": "Animación, Musical",
+      "imagen": "barbie.jpg",
+      "descripcion": "Barbie interpreta a una princesa que intercambia vidas con su estrella pop favorita.",
+      "duracion": "1h 26min",
+      "clasificacion": "PG",
+      "boton": {
+        "texto": "Ver más",
+        "accion": "ver_detalles",
+        "url": "https://example.com/pelicula/2"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Las Guerreras del K-Pop",
+      "año": 2025,
+      "genero": "Animación, Acción",
+      "imagen": "LasGuerreras.webp",
+      "descripcion": "Cinco chicas viajan entre mundos para salvar el mundo de una amenaza demoniaca.",
+      "duracion": "1h 38min",
+      "clasificacion": "PG-13",
+      "boton": {
+        "texto": "Ver más",
+        "accion": "ver_detalles",
+        "url": "https://example.com/pelicula/3"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Crepúsculo",
+      "año": 2008,
+      "genero": "Romance, Fantasía",
+      "imagen": "crepu.webp",
+      "descripcion": "Una joven se enamora de un misterioso vampiro, desatando una historia llena de peligro y pasión.",
+      "duracion": "2h 2min",
+      "clasificacion": "PG-13",
+      "boton": {
+        "texto": "Ver más",
+        "accion": "ver_detalles",
+        "url": "https://example.com/pelicula/4"
+      }
+    },
+
+    {
+      "id": 5,
+      "titulo": "Chainsaw Man",
+      "año": 2025,
+      "genero": "Acción",
+      "imagen": "man.jpg",
+      "descripcion": "Denji trabajaba como Cazador de Demonios para los yakuza, intentando saldar la deuda que heredó de sus padres, hasta que fue traicionado y asesinado por ellos. Al borde de la muerte, su querido perro-demonio con motosierra, Pochita, hizo un pacto con él y le salvó la vida. Esto los fusionó, dando origen al imparable Chainsaw Man.",
+      "duracion": "1h 40min"
+     
+      },
+
+      { 
+      
+      "id": 6,
+      "titulo": "IT",
+      "año": 2017,
+      "genero": "Terror",
+      "imagen": "it.jpg",
+      "descripcion": "En el verano de 1989 un grupo de niños deciden unirse para destruir a un monstruo que cambia de forma y se disfraza de payaso atacando los niños de Derry, un pequeño pueblo de Maine..",
+      "duracion": "2h 15min",
+      "url": "/it"
+      },
+
+      { 
+      "id": 7,
+      "titulo": "La hermanastra fea",
+      "año": 2025,
+      "genero": "Accion",
+      "imagen": "hermanastra.jpg",
+      "descripcion": "Combinando comedia y terror, la película es una versión atrevida e inesperada del famoso cuento, vista a través de los ojos de Elvira, la hermanastra de Cenicienta. La sangrienta película sigue a Elvira en su lucha por competir con su increíblemente bella hermanastra en un reino donde la belleza es un negocio brutal. Elvira hará todo lo posible por atraer la atención del príncipe.",
+      "duracion": "1h 50min",
+      "url": "/hermanastra"
+      },
+
+      {
+       "id": 8,
+      "titulo": "El cadaver de la novia",
+      "año": 2005,
+      "genero": "Animada",
+      "imagen": "novia.webp",
+      "descripcion": "Un joven y tímido novio practica sus votos sin saber de la presencia de una difunta joven, que se alza de la tumba asumiendo que el joven la ha tomado por esposa.",
+      "duracion": "1h 17min"
+
+      },
+
+      {
+      "id": 8,
+      "titulo": "Como entrenar a mi dragon 4",
+      "año": 2025,
+      "genero": "Animada",
+      "imagen": "dragonn.jpg",
+      "descripcion": "Un joven vikingo aspira a cazar dragones, pero se convierte inesperadamente en amigo de un joven dragón.",
+      "duracion": "1h 25min"
+      },
+
+      {
+      "id": 9,
+      "titulo": "Dollhouse Muñeca Maldita",
+      "año": 2025,
+      "genero": "Terror",
+      "imagen": "doll.jfif",
+      "descripcion": "Tras la pérdida de su pequeña hija, una mujer encuentra en un mercado de antigüedades una muñeca idéntica a la niña. Al principio la muñeca servirá de consuelo para sobrellevar el duelo, pero pronto su presencia se vuelve aterradora y hostil, como si se tratara de un demonio aferrándose a su presa.",
+      "duracion": "1h 50min"
+      },
+
+      {
+      "id": 10,
+      "titulo": "El poder del Exorcista",
+      "año": 2025,
+      "genero": "Terror",
+      "imagen": "exorcista.jpg",
+      "descripcion": "Tras perder a su familia en un trágico accidente, un joven sacerdote renuncia a todo, incluso a su fe. Pero su vida y su fe dan un giro inesperado cuando un veterano exorcista lo recluta para enfrentar un caso aterrador: una niña poseída por múltiples demonios. Decidido a salvarla a cualquier precio el deberá de realizar otro exorcismo, un exorcismo final…, el más letal y peligroso de todos.",
+      "duracion": "1h 36min"
+      },
+
+      {
+      "id": 11,
+      "titulo": "El corazón lobo",
+      "año": 2025,
+      "genero": "Terror",
+      "imagen": "corazon.jfif",
+      "descripcion": "Aquiles, un niño ashaninka de nueve años, es secuestrado de su aldea por Sendero Luminoso y, forzado a convivir y crecer dentro del movimiento terrorista, sobrevive impulsado por su obsesión de fugar y encontrar a su padre.",
+      "duracion": "1h 39min",
+      "url": "/lobo"
+      },
+
+      {
+      "id": 12,
+      "titulo": "Nanito",
+      "año": 2025,
+      "genero": "drama",
+      "imagen": "nanito.jpg",
+      "descripcion": "Nanito, a sus 80 años, busca reconquistar a Antonia, un amor del pasado. La ternura de Nanito y la picardía de Antonia nos conducen por un viaje de antaño que nos hará reflexionar sobre la soledad y el amor en la vejez.",
+      "duracion": "1h 30min",
+      "url": "/nanito"
+      },
+
+      {
+      "id": 13,
+      "titulo": "Demon Slayer Castillo Infinito",
+      "año": 2025,
+      "genero": "anime",
+      "imagen": "demon.webp",
+      "descripcion": "El Cuerpo de Cazadores de Demonios se enfrenta a los Doce Kizuki restantes antes de enfrentarse a Muzan en el Castillo del Infinito para derrotarlo de una vez por todas.",
+      "duracion": "2h 30min"
+      },
+
+      {
+      "id": 14,
+      "titulo": "Jurassic World Renace",
+      "año": 2025,
+      "genero": "accion",
+      "imagen": "jurassic.jpg",
+      "descripcion": "Dominio, la ecología del planeta se ha vuelto inhóspita para los dinosaurios. Los que quedan viven en entornos ecuatoriales aislados con climas semejantes al de los lugares donde alguna vez prosperaron. Las tres criaturas más colosales de la tierra, el mar y el aire dentro de esa biosfera tropical poseen, en su ADN, la clave para un medicamento que aportará a la humanidad milagrosos beneficios para salvar vidas.",
+      "duracion": "2h 14min"
+      }
+  ]
+}
+
