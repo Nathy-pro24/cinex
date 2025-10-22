@@ -95,7 +95,6 @@ function App() {
           }/>
         </Routes>
         
-        <CompraRapida/>
         <Footer />
 
       </BrowserRouter>

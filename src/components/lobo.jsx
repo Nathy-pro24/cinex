@@ -133,7 +133,7 @@ const Lobo = () => {
               </div>
 
               {/* Dropdowns */}
-              <div className="flex gap-4 mb-6">
+              <div className="gap-4 mb-6">
                 <select
                   value={selectedFormato}
                   onChange={(e) => setSelectedFormato(e.target.value)}
