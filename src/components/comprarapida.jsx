@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CompraRapida.css'; // Estilos separados para orden
+import './compraRapida.css'; // Estilos separados para orden
 
 const CompraRapida = () => {
   const [sidebarAbierto, setSidebarAbierto] = useState(false);
