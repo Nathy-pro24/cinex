@@ -18,7 +18,8 @@ import Nanito from "./components/nanito";
 import Contacto from "./pages/contacto";
 import ListaPeliculas from "./components/peliculas";
 import Carrusel from "./components/carrusel";
-
+import app from "./firebase";
+import { getAuth, signOut } from "firebase/auth";
 function App() {
   return (
     <>
