@@ -20,6 +20,8 @@ import ListaPeliculas from "./components/peliculas";
 import Carrusel from "./components/carrusel";
 import app from "./firebase";
 import { getAuth, signOut } from "firebase/auth";
+import Usuario from "./components/usuario";
+import Registrarcuenta from "./components/Registrarcuenta";
 function App() {
   return (
     <>
@@ -54,6 +56,8 @@ function App() {
             }
           />
 
+          <Route path="/usuario" element={<Usuario />} />
+          <Route path="/registro" element={<Registrarcuenta />} />
           <Route
             path="alimentosybebidas"
             element={

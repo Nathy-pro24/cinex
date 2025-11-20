@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 
 const images = [
@@ -13,14 +12,6 @@ const images = [
 
 function Carrusel() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-  };
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -40,32 +31,15 @@ function Carrusel() {
         />
       </div>
 
-      {/* Botones */}
-      <button
-        onClick={prevSlide}
-        className="absolute top-1/2 left-3 transform -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full p-3 hover:bg-opacity-75 transition"
-        aria-label="Anterior Slide"
-      >
-        Prev
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute top-1/2 right-3 transform -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full p-3 hover:bg-opacity-75 transition"
-        aria-label="Siguiente Slide"
-      >
-        Next
-      </button>
-
-      {/* Indicadores */}
+      {/* Indicadores (puntos redondos perfectos) */}
       <div className="flex justify-center mt-4 space-x-3">
         {images.map((_, idx) => (
-          <button
+          <div
             key={idx}
             onClick={() => setCurrentIndex(idx)}
-            className={`w-4 h-4 rounded-full ${
-              currentIndex === idx ? "bg-blue-600" : "bg-gray-300"
+            className={`w-3 h-3 cursor-pointer rounded-full transition ${
+              currentIndex === idx ? "bg-white" : "bg-gray-500"
             }`}
-            aria-label={`Ir al slide ${idx + 1}`}
           />
         ))}
       </div>
