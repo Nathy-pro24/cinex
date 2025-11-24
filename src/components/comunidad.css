@@ -1,0 +1,23 @@
+/* Área de texto del comentario */
+textarea, input[type="text"], input[type="textarea"] {
+  color: black !important;      /* Texto negro */
+  background-color: white !important; /* Fondo blanco para contraste */
+  border: 1px solid #ccc;
+}
+
+/* Placeholder en negro */
+textarea::placeholder, input::placeholder {
+  color: black !important;
+}
+
+/* Texto del botón Comentar */
+button {
+  color: white !important; /* texto blanco para contraste con botón rojo */
+  font-weight: bold;
+}
+
+/* Si el botón tiene clase específica, ejemplo: */
+.boton-comentar, .btn-comentar {
+  color: white !important;
+  font-weight: bold;
+}

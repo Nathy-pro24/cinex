@@ -25,20 +25,28 @@ const CompraRapida = () => {
   return (
     <>
       {/* Botón flotante */}
-      <a href="#" className="boton-flotante" onClick={(e) => {
-        e.preventDefault();
-        setSidebarAbierto(true);
-      }}>
+      <a
+        href="#"
+        className="boton-flotante"
+        onClick={(e) => {
+          e.preventDefault();
+          setSidebarAbierto(true);
+        }}
+      >
         ⚡ Compra Rápida
       </a>
 
       {/* Sidebar */}
       <div className={`sidebar ${sidebarAbierto ? 'open' : ''}`}>
-        <span className="cerrar" onClick={() => setSidebarAbierto(false)}>&times;</span>
+        <span className="cerrar" onClick={() => setSidebarAbierto(false)}>
+          &times;
+        </span>
+
         <h2>Agenda tu Película</h2>
 
         <form onSubmit={handleSubmit}>
-          <label htmlFor="pelicula">Película:</label><br />
+          <label htmlFor="pelicula">Película:</label>
+          <br />
           <input
             list="peliculas"
             id="pelicula"
@@ -52,18 +60,19 @@ const CompraRapida = () => {
               <option value={peli} key={idx} />
             ))}
           </datalist>
-
-          <br /><br />
-
-          <label htmlFor="fecha">Fecha:</label><br />
+          <br />
+          <br />
+          <label htmlFor="fecha">Fecha:</label>
+          <br />
           <input
             type="date"
             id="fecha"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
             required
-          /><br /><br />
-
+          />
+          <br />
+          <br />
           <button type="submit">Agendar</button>
         </form>
       </div>
@@ -72,3 +81,4 @@ const CompraRapida = () => {
 };
 
 export default CompraRapida;
+

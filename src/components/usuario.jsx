@@ -118,7 +118,7 @@ function Usuario() {
               alt="foto"
               className="w-32 h-32 rounded-2xl object-cover border-2 border-[#e50914] shadow-[0_0_25px_#e50914aa]"
             />
-            <span className="absolute bottom-1 right-1 w-5 h-5 bg-green-500 rounded-full border-2 border-black animate-pulse"></span>
+            <span className="absolute bottom-1 right-1 w-5 h-5 bg-gray-900 rounded-full border-2 border-black animate-pulse"></span>
           </div>
 
           <div>

@@ -22,6 +22,7 @@ import app from "./firebase";
 import { getAuth, signOut } from "firebase/auth";
 import Usuario from "./components/usuario";
 import Registrarcuenta from "./components/Registrarcuenta";
+import Comunidad from "./components/comunidad";
 function App() {
   return (
     <>
@@ -58,6 +59,8 @@ function App() {
 
           <Route path="/usuario" element={<Usuario />} />
           <Route path="/registro" element={<Registrarcuenta />} />
+          <Route path="/opiniones" element={<Comunidad />} />
+
           <Route
             path="alimentosybebidas"
             element={

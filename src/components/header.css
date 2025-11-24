@@ -54,3 +54,20 @@ nav a:hover {
     border-radius: 50%;
     border: 1px solid white;
 }
+
+.logout-btn {
+    margin-left: 10px;
+    padding: 6px 15px;
+    border: none;
+    background: #e50914;
+    color: white;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #b20710;
+    transform: scale(1.05);
+}
