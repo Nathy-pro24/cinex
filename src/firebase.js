@@ -4,13 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDTaVuK8V16jXIJ_Nde7cuZ0RTHNfWcBnU",
-  authDomain: "nathy-98970.firebaseapp.com",
-  projectId: "nathy-98970",
-  storageBucket: "nathy-98970.firebasestorage.app",
-  messagingSenderId: "722916567011",
-  appId: "1:722916567011:web:5874714d2f718164fc62d6",
-  measurementId: "G-RRRPP1QL27"
+  apiKey: "AIzaSyCAdFUPc_GHxCX-a8ecDRFFe_XRYH9-s0E",
+  authDomain: "chicas-tec-am.firebaseapp.com",
+  projectId: "chicas-tec-am",
+  storageBucket: "chicas-tec-am.firebasestorage.app",
+  messagingSenderId: "85027786061",
+  appId: "1:85027786061:web:7102a4ace730835c5cfb04"
 };
 
 // Initialize Firebase
